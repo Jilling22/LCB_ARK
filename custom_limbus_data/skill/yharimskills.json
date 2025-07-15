@@ -1,0 +1,127 @@
+{
+  "list": [
+    {
+      "id": 1116001,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "AMBER",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "targetNum": 1,
+          "range": 6.5,
+          "defaultValue": 7,
+          "skillLevelCorrection": 1,
+          "abilityScriptList": [
+            {
+              "scriptName": "Modular/TIMING:WhenUse/buf(Self,Breath,3,0,0)"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "Modular/TIMING:OSA(none,none,none)/buf(Self,Breath,2,0,0)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1116002,
+      "skillTier": 2,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "AZURE",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "targetNum": 1,
+          "range": 6.5,
+          "defaultValue": 7,
+          "skillLevelCorrection": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "Modular/TIMING:WhenUse/buf(Self,Breath,4,0,0)"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "Modular/TIMING:OSA(none,none,none)/buf(Self,Breath,1,0,1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1116003,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "skillTargetType": "FRONT",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "CRIMSON",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S3",
+          "viewType": "BATTLE",
+          "targetNum": 1,
+          "range": 6.5,
+          "defaultValue": 3,
+          "skillLevelCorrection": 5,
+          "abilityScriptList": [
+            {
+              "scriptName": "Modular/TIMING:WhenUse/buf(Target,SlashTakeDamageUp,2,0,0)/buf(RandomEnemy,SlashTakeDamageUp,2,0,0)"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "Modular/TIMING:OSA(none,none,none)/buf(Self,Breath,3,0,1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
