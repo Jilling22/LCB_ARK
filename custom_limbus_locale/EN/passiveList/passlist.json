@@ -1,0 +1,14 @@
+{
+    "2116001": {
+        "a": 0,
+        "id": "2116001",
+        "name": "Memories of ...",
+        "desc": "On Round Start, gain 1 Fragment of Auric"
+    },
+    "2116002": {
+        "a": 0,
+        "id": "2116002",
+        "name": "Presence and Breath of an Emperor",
+        "desc": "- At Combat Start, Slash Resistance +0.3 for all enemies.\n- When this unit gains [Breath] Potency, gain +1 [Breath] Count as well."
+    }
+}

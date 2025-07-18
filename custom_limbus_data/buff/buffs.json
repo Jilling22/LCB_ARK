@@ -1,0 +1,27 @@
+{
+  "list": [
+    {
+      "id": "FragmentofAuric",
+      "buffClass": "NonvolatileBuff",
+      "attributeType": "SHAMROCK",
+      "buffType": "Positive",
+      "maxStack": 1,
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "Modular/TIMING:RoundStart/addability(Self,MaxHpUpAdder,99,1,0)"
+        },
+        {
+          "ability": "Modular/TIMING:RoundStart/buf(Self,AttackUp,25,0,0)/buf(Self,DefenseUp,35,0,0)"
+        },
+        {
+          "ability": "Modular/TIMING:EndBattle/addability(Self,MinSpeedAdder,16,1,1)/addability(Self,MaxSpeedAdder,13,1,1)"
+        },
+        {
+          "ability": "Modular/Timing:EndBattle/aggro(Self,20,next,0)"
+        }
+      ],
+      "categoryKeywordList": []
+    }
+  ]
+}

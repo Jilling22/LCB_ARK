@@ -98,7 +98,24 @@
           "skillLevelCorrection": 5,
           "abilityScriptList": [
             {
-              "scriptName": "Modular/TIMING:WhenUse/buf(Target,SlashTakeDamageUp,2,0,0)/buf(RandomEnemy,SlashTakeDamageUp,2,0,0)"
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "SlashTakeDamageUp",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "SlashTakeDamageUp",
+                "target": "RandomEnemy1",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
             }
           ],
           "coinList": [

@@ -15,7 +15,7 @@
         "incrementByLevel": 2.95
       },
       "PassiveSet": {
-        "passiveIdList": [],
+        "passiveIdList": [2116001, 2116002],
         "supportPassiveIdList": [],
         "unlockPassiveIdListForUI": []
       },
