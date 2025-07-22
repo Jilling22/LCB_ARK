@@ -1,31 +1,31 @@
 {
   "list": [
     {
-      "id": 11160,
-      "appearance": "11101_Outis_BaseAppearance",
-      "unitKeywordList": ["LIMBUS_COMPANY_LCBG", "SMALL"],
-      "associationList": ["LIMBUS_COMPANY", "LIMBUS_COMPANY_LCBG"],
+      "id": 10840,
+      "appearance": "10801_Ishmael_BaseAppearance",
+      "unitKeywordList": ["LIMBUS_COMPANY_LCBA", "SMALL"],
+      "associationList": ["LIMBUS_COMPANY", "LIMBUS_COMPANY_LCBA"],
       "skillKeywordList": ["Laceration"],
-      "characterId": 11,
+      "characterId": 8,
       "panicType": 9999,
       "season": 0,
-      "rank": 2,
+      "rank": 1,
       "hp": {
-        "defaultStat": 80,
-        "incrementByLevel": 2.95
+        "defaultStat": 14,
+        "incrementByLevel": 2.28
       },
       "PassiveSet": {
-        "passiveIdList": [2116001, 2116002],
+        "passiveIdList": [2084001],
         "supportPassiveIdList": [],
         "unlockPassiveIdListForUI": []
       },
-      "defCorrection": 15,
-      "defenseSkillIDList": [1116004],
+      "defCorrection": -5,
+      "defenseSkillIDList": [1084004],
       "panicSkillOnErosion": 1000104,
       "slotWeightConditionList": ["Default1"],
-      "minSpeedList": [3, 3, 4, 4],
-      "maxSpeedList": [5, 5, 6, 7],
-      "uniqueAttribute": "CRIMSON",
+      "minSpeedList": [3, 3, 3, 3],
+      "maxSpeedList": [7, 8, 9, 10],
+      "uniqueAttribute": "SCARLET",
       "mentalConditionInfo": {
         "add": [
           {
@@ -55,13 +55,13 @@
         ]
       },
       "breakSection": {
-        "sectionList": [55]
+        "sectionList": [55, 35, 15]
       },
       "resistInfo": {
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.5
+            "value": 1
           },
           {
             "type": "PENETRATE",
@@ -69,21 +69,21 @@
           },
           {
             "type": "HIT",
-            "value": 1
+            "value": 0.5
           }
         ]
       },
       "attributeList": [
         {
-          "skillId": 1116001,
+          "skillId": 1084001,
           "number": 3
         },
         {
-          "skillId": 1116002,
+          "skillId": 1084002,
           "number": 2
         },
         {
-          "skillId": 1116003,
+          "skillId": 1084003,
           "number": 1
         }
       ]

@@ -148,10 +148,17 @@
               "scale": 8,
               "abilityScriptList": [
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:hpcheck(Target,max)/VALUE_0:math(VALUE_0*20%100)/VALUE_1:hpcheck(Target,normal)/VALUE_2:getdmg/VALUE_2:math(VALUE_2*30%100)/IF(VALUE_0>VALUE_1):bonusdmg(Target,VALUE_2,-1,-1)"
+                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:hpcheck(Target,max)/VALUE_0:math(VALUE_0*20%100)/VALUE_1:hpcheck(Target,normal)/VALUE_2:dmgmult(30)"
                 },
                 {
-                  "scriptName": "Modular/TIMING:OSA(Head,None,None)/buf(Target,Paralysis,2,2,1)"
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Paralysis",
+                    "target": "Target",
+                    "stack": 2,
+                    "turn": 2,
+                    "activeRound": 1
+                  }
                 }
               ]
             }

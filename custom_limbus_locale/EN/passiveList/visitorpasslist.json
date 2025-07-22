@@ -3,7 +3,7 @@
         "a": 0,
         "id": "2116001",
         "name": "Memories of ...",
-        "desc": "On Round Start, gain 1 Fragment of Auric"
+        "desc": "On Round Start 2nd turn, gain 1 <sprite name=\"ChargeForceField\"><color=#f09745><u><link=\"FragmentofAuric\">Fragment of Auric</color></link></u>"
     },
     "2116002": {
         "a": 0,
