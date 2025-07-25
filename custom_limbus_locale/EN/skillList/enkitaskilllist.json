@@ -1,0 +1,96 @@
+{
+  "1114001": {
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Cut",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Burst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1114002": {
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Lacerate",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Burst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1114003": {
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Rebel",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [{}]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Burst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count\n[OnSucceedAttackHead] Inflict 2 [Burst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1114004": {
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Block",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [{ "coindescs": [] }]
+      }
+    ]
+  }
+}

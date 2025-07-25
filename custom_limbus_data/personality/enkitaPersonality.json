@@ -1,0 +1,92 @@
+{
+  "list": [
+    {
+      "id": 11140,
+      "appearance": "11101_Outis_BaseAppearance",
+      "unitKeywordList": ["LIMBUS_COMPANY_LCBA", "SMALL"],
+      "associationList": ["LIMBUS_COMPANY", "LIMBUS_COMPANY_LCBA"],
+      "skillKeywordList": ["Burst"],
+      "characterId": 11,
+      "panicType": 9999,
+      "season": 0,
+      "rank": 1,
+      "hp": {
+        "defaultStat": 62,
+        "incrementByLevel": 2.75
+      },
+      "PassiveSet": {
+        "passiveIdList": [2114001],
+        "supportPassiveIdList": [],
+        "unlockPassiveIdListForUI": []
+      },
+      "defCorrection": -5,
+      "defenseSkillIDList": [1114004],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": ["Default1"],
+      "minSpeedList": [3, 3, 4, 4],
+      "maxSpeedList": [4, 4, 5, 5],
+      "uniqueAttribute": "AMBER",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [85, 70, 40]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1114001,
+          "number": 3
+        },
+        {
+          "skillId": 1114002,
+          "number": 2
+        },
+        {
+          "skillId": 1114003,
+          "number": 1
+        }
+      ]
+    }
+  ]
+}
