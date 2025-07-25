@@ -61,7 +61,7 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 1
+            "value": 0.5
           },
           {
             "type": "PENETRATE",
