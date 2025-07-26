@@ -1,31 +1,31 @@
 {
   "list": [
     {
-      "id": 11140,
-      "appearance": "11101_Outis_BaseAppearance",
+      "id": 10140,
+      "appearance": "10101_YiSang_BaseAppearance",
       "unitKeywordList": ["LIMBUS_COMPANY_LCBA", "SMALL"],
       "associationList": ["LIMBUS_COMPANY", "LIMBUS_COMPANY_LCBA"],
-      "skillKeywordList": ["Burst"],
-      "characterId": 11,
+      "skillKeywordList": ["Sinking"],
+      "characterId": 1,
       "panicType": 9999,
       "season": 0,
       "rank": 1,
       "hp": {
-        "defaultStat": 62,
-        "incrementByLevel": 2.75
+        "defaultStat": 80,
+        "incrementByLevel": 3
       },
       "PassiveSet": {
-        "passiveIdList": [2114001],
+        "passiveIdList": [2014001],
         "supportPassiveIdList": [],
         "unlockPassiveIdListForUI": []
       },
-      "defCorrection": -2,
-      "defenseSkillIDList": [1114004],
+      "defCorrection": -4,
+      "defenseSkillIDList": [1014004],
       "panicSkillOnErosion": 1000104,
       "slotWeightConditionList": ["Default1"],
-      "minSpeedList": [3, 3, 4, 4],
-      "maxSpeedList": [4, 4, 5, 5],
-      "uniqueAttribute": "AMBER",
+      "minSpeedList": [2, 2, 3, 3],
+      "maxSpeedList": [4, 4, 5, 6],
+      "uniqueAttribute": "AZURE",
       "mentalConditionInfo": {
         "add": [
           {
@@ -55,7 +55,7 @@
         ]
       },
       "breakSection": {
-        "sectionList": [85, 70, 40]
+        "sectionList": [60, 30, 10]
       },
       "resistInfo": {
         "atkResistList": [
@@ -75,15 +75,15 @@
       },
       "attributeList": [
         {
-          "skillId": 1114001,
+          "skillId": 1014001,
           "number": 3
         },
         {
-          "skillId": 1114002,
+          "skillId": 1014002,
           "number": 2
         },
         {
-          "skillId": 1114003,
+          "skillId": 1014003,
           "number": 1
         }
       ]

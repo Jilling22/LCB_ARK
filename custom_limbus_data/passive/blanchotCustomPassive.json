@@ -1,0 +1,16 @@
+{
+  "list": [
+    {
+      "id": 2014001,
+      "attributeStockCondition": [
+        {
+          "value": 4,
+          "type": "CRIMSON"
+        }
+      ],
+      "requireIDList": [
+        "Modular/TIMING:RoundStart/VALUE_0:mpcheck(self)/IF(VALUE_0<0):buf(Self,AttackUp,1,0,0)"
+      ]
+    }
+  ]
+}

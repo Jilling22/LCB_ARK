@@ -49,10 +49,10 @@
                   }
                 },
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:bufcheck(Self,FragmentofAuric,stack)/IF(VALUE_0>0):VALUE_1:random(1,3)/healhp(Self,VALUE_1)"
+                  "scriptName": "Modular/TIMING:OSA(None)/VALUE_0:bufcheck(Self,FragmentofAuric,stack)/IF(VALUE_0>0):VALUE_1:random(1,3)/healhp(Self,VALUE_1)"
                 },
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:resource(CRIMSON)/IF(VALUE_0>4):buf(Self,Breath,0,1,0)"
+                  "scriptName": "Modular/TIMING:OSA(None)/VALUE_0:resource(CRIMSON)/IF(VALUE_0>4):buf(Self,Breath,0,1,0)"
                 }
               ]
             }
@@ -99,10 +99,10 @@
               "scale": 3,
               "abilityScriptList": [
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:bufcheck(Self,FragmentofAuric,stack)/IF(VALUE_0>0):VALUE_1:random(1,3)/healhp(Self,VALUE_1)"
+                  "scriptName": "Modular/TIMING:OSA(None)/VALUE_0:bufcheck(Self,FragmentofAuric,stack)/IF(VALUE_0>0):VALUE_1:random(1,3)/healhp(Self,VALUE_1)"
                 },
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)VALUE_0:resource(CRIMSON)/IF(VALUE_0>4):buf(Self,Breath,0,1,0)"
+                  "scriptName": "Modular/TIMING:OSA(None)VALUE_0:resource(CRIMSON)/IF(VALUE_0>4):buf(Self,Breath,0,1,0)"
                 }
               ]
             },
@@ -121,10 +121,10 @@
                   }
                 },
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:bufcheck(Self,FragmentofAuric,stack)/IF(VALUE_0>0):VALUE_1:random(1,3)/healhp(Self,VALUE_1)"
+                  "scriptName": "Modular/TIMING:OSA(None)/VALUE_0:bufcheck(Self,FragmentofAuric,stack)/IF(VALUE_0>0):VALUE_1:random(1,3)/healhp(Self,VALUE_1)"
                 },
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:resource(CRIMSON)/IF(VALUE_0>4):buf(Self,Breath,0,1,0)"
+                  "scriptName": "Modular/TIMING:OSA(None)/VALUE_0:resource(CRIMSON)/IF(VALUE_0>4):buf(Self,Breath,0,1,0)"
                 }
               ]
             }
@@ -178,10 +178,10 @@
               "scale": 4,
               "abilityScriptList": [
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:bufcheck(Self,FragmentofAuric,stack)/IF(VALUE_0>0):VALUE_1:random(1,3)/healhp(Self,VALUE_1)"
+                  "scriptName": "Modular/TIMING:OSA(None)/VALUE_0:bufcheck(Self,FragmentofAuric,stack)/IF(VALUE_0>0):VALUE_1:random(1,3)/healhp(Self,VALUE_1)"
                 },
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:resource(CRIMSON)/IF(VALUE_0>4):buf(Self,Breath,0,1,0)"
+                  "scriptName": "Modular/TIMING:OSA(None)/VALUE_0:resource(CRIMSON)/IF(VALUE_0>4):buf(Self,Breath,0,1,0)"
                 }
               ]
             },
@@ -190,10 +190,10 @@
               "scale": 4,
               "abilityScriptList": [
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:bufcheck(Self,FragmentofAuric,stack)/IF(VALUE_0>0):VALUE_1:random(1,3)/healhp(Self,VALUE_1)"
+                  "scriptName": "Modular/TIMING:OSA(None)/VALUE_0:bufcheck(Self,FragmentofAuric,stack)/IF(VALUE_0>0):VALUE_1:random(1,3)/healhp(Self,VALUE_1)"
                 },
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:resource(CRIMSON)/IF(VALUE_0>4):buf(Self,Breath,0,1,0)"
+                  "scriptName": "Modular/TIMING:OSA(None)/VALUE_0:resource(CRIMSON)/IF(VALUE_0>4):buf(Self,Breath,0,1,0)"
                 }
               ]
             },
@@ -212,10 +212,10 @@
                   }
                 },
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:bufcheck(Self,FragmentofAuric,stack)/IF(VALUE_0>0):VALUE_1:random(1,3)/healhp(Self,VALUE_1)"
+                  "scriptName": "Modular/TIMING:OSA(None)/VALUE_0:bufcheck(Self,FragmentofAuric,stack)/IF(VALUE_0>0):VALUE_1:random(1,3)/healhp(Self,VALUE_1)"
                 },
                 {
-                  "scriptName": "Modular/TIMING:OSA(None,None,None)/VALUE_0:resource(CRIMSON)/IF(VALUE_0>4):buf(Self,Breath,0,1,0)"
+                  "scriptName": "Modular/TIMING:OSA(None)/VALUE_0:resource(CRIMSON)/IF(VALUE_0>4):buf(Self,Breath,0,1,0)"
                 }
               ]
             }

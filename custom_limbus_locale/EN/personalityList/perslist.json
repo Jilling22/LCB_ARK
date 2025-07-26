@@ -25,5 +25,14 @@
         "title": "Enkita (LCBArk Sinner)",
         "acquisitionMethod": "Unknown",
         "oneLineTitle": ""
+    },
+    "10140": {
+        "a": 0,
+        "id": "10140",
+        "name": "Blanchot",
+        "desc": "",
+        "title": "Blanchot (LCBArk Sinner)",
+        "acquisitionMethod": "Unknown",
+        "oneLineTitle": ""
     }
 }

@@ -1,0 +1,91 @@
+{
+  "1014001": {
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Jab",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [{}]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Sinking]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1014002": {
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WinDuel] Inflict 1 [Vulnerable]",
+        "name": "Thwack",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [{}]
+          }
+        ]
+      }
+    ]
+  },
+  "1014003": {
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Bash",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Sinking]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Sinking]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Sinking]\n[OnSucceedAttackTail] If target's SP is below 0, gain 1 [Enhancement]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1014004": {
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "All that was real; take note",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [{ "coindescs": [] }]
+      }
+    ]
+  }
+}
