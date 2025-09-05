@@ -3,7 +3,7 @@
     {
       "id": 10241,
       "appearance": "10208_Faust_SwordGroupAppearance",
-      "unitKeywordList": ["CLAN", "SMALL"],
+      "unitKeywordList": ["CLAN", "SMALL","INDEX_LEVEL_MESSENGER"],
       "associationList": ["INDEX_FINGER"],
       "skillKeywordList": [],
       "characterId": 2,
